@@ -16,7 +16,7 @@ def media_telegraph(bot: Bot, update: Update):
 
 @run_async
 def post_telegraph(bot: Bot, update: Update, args: List[str]):
-    short_name = "Created By @Charlie_jin 😎"
+    short_name = "Created By @mpazaan 😎"
     msg = update.effective_message # type: Optional[Message]
     telegraph = Telegraph()
     r = telegraph.create_account(short_name=short_name)
@@ -38,8 +38,8 @@ __help__ = """
 ○ Credits : `Everyone in this journey`
 ○ Language : Python3.6
 ○ Library : [Pyrogram asyncio 0.16.1](https://docs.pyrogram.org/)
-○ Developed by : [ജിന്ന്\" DQishtam](http://telegram.dog/Charlie_jin)
-○ Source Code : 👉 [Click Here](https://github.com/Ashkar2001/filter_bot)
+○ Developed by : [mpazaan\" munnipooz](http://telegram.dog/mpazaan)
+○ Source Code : 👉 [Click Here](https://t.me/mpazaanbot)
 ○ Server : Heroku
 ○ Build Status : V4 `[+0.4]`
 """
